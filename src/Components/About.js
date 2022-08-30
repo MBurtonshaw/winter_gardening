@@ -5,16 +5,16 @@ export default function About() {
       <div id="about" className='container-fluid p-5'>
         <hr></hr>
         <div className='row flashcard'>
-            <div className="container col-7 text-center px-5">
+            <div className="container col-lg-7 text-center px-md-5">
                 <h1 className='display-4'>Overview</h1>
-                <p className='text-black-50 pt-5 px-5'>
+                <p className='text-black-50 pt-5 px-1 px-md-5'>
                     The goal of winter gardening in Northern climates is to be able to plant as long as possible
                     into the growing season, even when dealing with frost. Certain plants are cold tolerant or cold resistant
                     and will continue to grow if given enough sunlight. So in order to maximize your garden's usefulness,
                     be sure to sow the last seeds, and transplant the last plants, by a certain date. That date will be determined
                     by whichever USDA hardiness zone you're working within, as well as other potential variables such as topography, etc.
                 </p>
-                <p className='text-black-50 px-5 pb-4'>This site is designed to instruct the gardener based on the growing environment chosen. </p>
+                <p className='text-black-50 px-md-5 pb-4'>This site is designed to instruct the gardener based on the growing environment chosen. </p>
                 <div className="dropup text-center pb-5">
                 <button className="btn btn-secondary dropdown-toggle bg-success" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Get Started!
@@ -27,7 +27,7 @@ export default function About() {
                 </ul>
             </div>
             </div>
-            <div className="container col-4 text-center pb-5">
+            <div className="container col-lg-4 text-center pb-5">
                 <h1 className='display-6 pt-2 pb-4'>Plant Options</h1>
                 <ul className='list-group list-group-flush bg-success px-4 py-3 lead'>
                     <li className='list-group-item py-2 text-white'>Beets</li>
@@ -43,8 +43,8 @@ export default function About() {
                 </ul>
             </div>
         </div>
-        <div className='row px-5 flashcard'>
-            <h1 className='display-5 pb-4 px-5'>Persephone Period</h1>
+        <div className='row px-md-5 flashcard'>
+            <h1 className='display-5 pb-4 px-md-5'>Persephone Period</h1>
             <p className='text-black-50'>
                 The Persephone period refers to the range of dates from when someone can plant and still have minimal light
                 requirements met. At a certain point in Autumn/Winter, the Persephone period is over; sunlight is diminished enough that winter gardening

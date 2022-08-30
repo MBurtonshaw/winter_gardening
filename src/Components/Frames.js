@@ -20,11 +20,11 @@ export default function Air() {
         <div className='container-fluid'>
 
           <div className='text-center row pb-3'>
-          <div className='container col-12 col-md-6 order-md-2'>
+          <div className='container col-12 col-lg-6 order-md-2'>
             <img className='img-fluid rounded' src={garden.image_urls[0]} alt='plants growing in wooden boxes'></img>
           </div>
-          <div className='container col-md-6 order-1 p-md-5'>
-            <h1 className='display-4 pb-3'>{garden.name}</h1>
+          <div className='container col-lg-6 order-1 p-md-5'>
+            <h1 className='display-4 pb-3 pt-4 pt-md-0'>{garden.name}</h1>
             <p className='lead'>{garden.layout}</p>
           </div>
           </div>
