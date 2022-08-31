@@ -8,7 +8,7 @@ export default function Carousel() {
                     <div className="carousel-inner">
                         <h1 className='lead py-2 fw-bold text-black-50'>Late Season Gardening in a Winter Climate</h1>
                     <div className="carousel-item active smoothed">
-                        <img src="img/garlic_slide.jpg" className="d-block w-100 smoothed" alt="..."/>
+                        <img src="img/high_slide.jpg" className="d-block w-100 smoothed" alt="..."/>
                     </div>
                     <div className="carousel-item smoothed">
                         <img src="img/frame_slide.jpg" className="d-block w-100 smoothed" alt="..."/>
@@ -17,7 +17,7 @@ export default function Carousel() {
                         <img src="img/low_slide.jpg" className="d-block w-100 smoothed" alt="..."/>
                     </div>
                     <div className="carousel-item smoothed">
-                        <img src="img/high_slide.jpg" className="d-block w-100 smoothed" alt="..."/>
+                        <img src="img/garlic_slide.jpg" className="d-block w-100 smoothed" alt="..."/>
                     </div>
                     </div>
                 </div>
