@@ -9,7 +9,7 @@
                 "soil": "Soil should be of a mixture such that water drains from the garden beds easily- somewhat sandy. Water isn't seen pooling in spots, there aren't any areas of dryness here or there, and in warm weather the water should drain away in around a day. Good advice for a garden in any season, but this is important in cold weather gardening because more likely than not, you'll have plenty of moisture in your beds due to snowfall. Any time the snow melts, your plants are being watered. Also, consider mulching around your plants with and organic mulch (compost mix, etc. - not wood chips) to retain water and protect from the cold.",
                 "water": "Tying in with the earlier statements regarding soil composition, your bed shouldn't be overly wet around the time of first frost. If you have well-draining soil, this shouldn't be an issue; but you don't want your soil to be bone-dry either. Depending on your setup, your growing area may or may not have access to running water in the Winter. In the Autumn, try to keep your garden somewhat moist, but on the drier side, then stop watering around the time of frost.",
                 "special": "Root vegetables and the heartier greens like cabbage are going to be your friend in this setup. All these plants are cold resistant and should survive, even under a blanket of snow. Depending on your area, being under a blanket of snow may be a better place for your crops to be, instead of being exposed to frost and cold air. Then when you're ready to harvest, you dig them out of the snow. The Persephone period doesn't apply as heavily in this setup as others that trap UV light- just make sure to have your crops in by August, generally.",
-                "crops": "beets, cabbage, carrots, garlic, kohlrabi, leeks, onions, turnips",
+                "crops": ["beets", "cabbage", "carrots", "garlic", "kohlrabi", "leeks", "onions", "turnips"],
                 "image_urls": ["../img/bird-in-snow.png"]
             },
             {
@@ -19,6 +19,7 @@
                 "soil": "Soil conditions can vary in this setup, but it's always wise to amend your soil with organic materials like leaf litter, coffee grounds, compost, etc. Just make sure the soil drains and doesn't allow water to stay pooled for hours at a time.",
                 "water": "Cold frames can get very hot considering they usually aren't a large space. As such, they can lose moisture quickly at times, so it's important to keep an eye on the moisture levels. It may also be a good idea to raise the humidity in your frame, depending on your local climate. To do this you can leave an open glass bottle or clay pot with no drainage hole, filled with water and let it evaporate in the frame.",
                 "special": "Build the frames directly against a heated building if possible to retain some residual heat. Careful on sunny days to keep the lid propped open to vent the heat.",
+                "crops": ["beets", "cabbage", "carrots", "lettuce", "kohlrabi", "salad", "radishes", "turnips"],
                 "image_urls": ["../img/cold-frame-1.png"]
             },
             {
@@ -28,6 +29,7 @@
                 "soil":"Treat the soil the same as you would with an open air garden, there's really no difference here.",
                 "water": "Water heavily early on, then as the weather cools and frost approaches, water very sparingly- if at all, depending on the weather. Don't keep the soil dry, but it's probably safer to be on the drier side instead of wet. You do however, have more control here vs an open air garden because of the coverage.",
                 "special": "Row cover can help reduce potential pest issues as well because it prevents insects from contacting the plants. But make sure not to place the hoops too far apart as that can cause the row cover to drape onto your plants; you will want to avoid the cover touching anything because it can conduct frost and damage you crops. Make sure to also account for your plants growing taller and potentially into the row cover; leave at least a few inches of space.",
+                "crops": ["beets", "cabbage", "carrots", "garlic", "kohlrabi", "leeks", "lettuce", "onions", "radishes", "salad", "turnips"],
                 "image_urls": ["../img/low-tunnel-1.png"]
             },
             {
@@ -37,6 +39,7 @@
                 "soil":"In this scenario you have the most control vs the other options (barring obvious downsides like cost). But as such, you can formulate your beds with whatever soil mixes would be ideal for the plants you're planning to grow.",
                 "water": "Water as needed. While high tunnels can get hot, in Winter, much of the water stays within the tunnel; it evaporates to the plastic walls, where it drips back down to the soil. Plenty of water will be needed in late Autumn, but as frost approaches water sparingly.",
                 "special": "With a high tunnel that's properly maintained, you can essentially grow crops year-round.",
+                "crops": ["beets", "cabbage", "carrots", "garlic", "kohlrabi", "leeks", "lettuce", "onions", "radishes", "salad", "turnips"],
                 "image_urls": ["../img/high-tunnel-1.png"]
             }
         ]

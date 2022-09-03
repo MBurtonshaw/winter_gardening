@@ -46,65 +46,25 @@ export default function Air() {
 
 
           <hr></hr>
-          <div className='container text-center text-black-50'>
-            <div className="card-group flashcard">
-              <div className='row mb-3'>
-                <div className="card col-sm-6 col-md-3">
-                  <img src="../img/beets.jpg" className="card-img-top pt-3" alt="beets"/>
-                  <div className="card-body">
-                    <h5 className="card-title">Beets</h5>
-                  </div>
-                </div>
-                <div className="card col-sm-6 col-md-3">
-                  <img src="../img/cabbage.jpg" className="card-img-top pt-3" alt="cabbage"/>
-                  <div className="card-body">
-                    <h5 className="card-title">Cabbage</h5>
-                  </div>
-                </div>
-                <div className="card col-sm-6 col-md-3">
-                  <img src="../img/carrots.jpg" className="card-img-top pt-3" alt="carrots"/>
-                  <div className="card-body">
-                    <h5 className="card-title">Carrots</h5>
-                  </div>
-                </div>
-                <div className="card col-sm-6 col-md-3">
-                  <img src="../img/lettuce.jpg" className="card-img-top pt-3" alt="lettuce"/>
-                  <div className="card-body">
-                    <h5 className="card-title">Lettuce</h5>
-                  </div>
-                </div>
-              </div>
-                
-
-              <div className='row mb-4'>
-              <div className="card col-sm-6 col-md-3">
-                  <img src="../img/kohlrabi.jpg" className="card-img-top pt-3" alt="kohlrabi"/>
-                  <div className="card-body">
-                    <h5 className="card-title">Kohlrabi</h5>
-                  </div>
-                </div>
-                <div className="card col-sm-6 col-md-3">
-                  <img src="../img/salad.jpg" className="card-img-top pt-3" alt="salad greens"/>
-                  <div className="card-body">
-                    <h5 className="card-title">Salad Mix</h5>
-                  </div>
-                </div>
-                <div className="card col-sm-6 col-md-3">
-                  <img src="../img/radishes.jpg" className="card-img-top pt-3" alt="radishes"/>
-                  <div className="card-body">
-                    <h5 className="card-title">Radishes</h5>
-                  </div>
-                </div>
-                
-                <div className="card col-sm-6 col-md-3">
-                  <img src="../img/turnips.jpg" className="card-img-top pt-3" alt="turnips"/>
-                  <div className="card-body">
-                    <h5 className="card-title">Turnips</h5>
-                  </div>
+          
+              {/* /////////////////  Card Group //////////////////// */}
+            
+            <div className='container text-center text-black-50'>
+              <div className="card-group flashcard">
+                <div className='row mb-3'>
+                  {garden.crops.map((item, index) => {
+                    return(
+                        <div key={index} className="card col-sm-6 col-md-3">
+                          <img src={"../img/" + item + ".jpg"} className="card-img-top pt-3" alt={item}/>
+                          <div className="card-body">
+                            <h5 className="card-title">{item}</h5>
+                          </div>
+                        </div>
+                    );
+                  })}
                 </div>
               </div>
             </div>
-          </div>
         
 
           <Footer />
