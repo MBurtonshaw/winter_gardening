@@ -8,10 +8,18 @@ body {
 
 #bg-div {
   background-image: url(../public/img/carousel-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .smoothed {
   border-radius: 2%;
+}
+
+.carousel-img {
+  width: 80%;
+  margin: auto;
+  padding: 2em;
 }
 
 .card-group {
@@ -31,4 +39,10 @@ body {
 .flashcard.visible {
   opacity: 1;
   transform: translate(0, 0);
+}
+
+.nonchalant {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
 }
